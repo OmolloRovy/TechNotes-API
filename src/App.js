@@ -1,13 +1,13 @@
 import { Route,Routes } from 'react-router-dom';
 import './App.css';
-
+ import Layout from './Components/Layout';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       <h1>Technotes API</h1>
-      </header>
-    </div>
+    <Routes>
+    <Route path="/" element={<Layout />}>
+        
+    </Route> 
+    </Routes>
   );
 }
 
