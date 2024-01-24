@@ -5,6 +5,7 @@ import React from 'react'
 function DashLayout() {
   return (
     <>
+    <DashHeader/>
     <div className='dash-container'>
     
     <Outlet />
