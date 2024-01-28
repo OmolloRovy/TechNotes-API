@@ -12,7 +12,7 @@ function App() {
  return (
  
     <Routes>
-      <Route path="" element={<Layout />}> {/* options Add trailing * here */}
+      <Route path="*" element={<Layout />}> {/* options Add trailing * here */}
         <Route index element={<Public />} />
         <Route path="login" element={<Login />} />
 
