@@ -14,15 +14,15 @@ function App() {
     <Routes>
       <Route path="" element={<Layout />}> {/* options Add trailing * here */}
         <Route index element={<Public />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="login" element={<Login />} />
 
-        <Route path="/dash" element={<DashLayout />}> {/* options Add trailing * here */}
+        <Route path="dash" element={<DashLayout />}> {/* options Add trailing * here */}
           <Route index element={<Welcome />} />
-          <Route path="../notes">
+          <Route path="notes">
             <Route index elemenet={<NotesLists />} />
           </Route>
 
-          <Route path="../users">
+          <Route path="users">
             <Route index elemenet={<UsersLists />} />
           </Route>
 
