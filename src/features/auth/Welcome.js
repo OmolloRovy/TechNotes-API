@@ -8,7 +8,7 @@ const date = new Date()
 const  today = new Intl.DateTimeFormart('en-us', { dateStyle: 'full', timeStyle: 'long'}).format(date)
 
 const content  = (
-  <section classNmae='welcome'>
+  <section className='welcome'>
   <p>{today}</p>
 
   <h1>Welcome!</h1>
