@@ -1,8 +1,8 @@
 import { Routes, Route } from 'react-router-dom'
-import Layout from './Components/Layout'
-import Public from './Components/Public'
+import Layout from './components/Layout'
+import Public from './components/Public'
 import Login from './features/auth/Login';
-import DashLayout from './Components/DashLayout'
+import DashLayout from './components/DashLayout'
 import Welcome from './features/auth/Welcome'
 import NotesList from './features/notes/NotesList'
 import UsersList from './features/users/UsersList'
@@ -10,7 +10,7 @@ import UsersList from './features/users/UsersList'
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Layout />}>
+      <Route path="" element={<Layout />}>
         <Route index element={<Public />} />
         <Route path="login" element={<Login />} />
 
