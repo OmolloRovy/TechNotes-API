@@ -35,6 +35,11 @@
 
 .nowrap {
   white-space: nowrap;
+  font-size:50px;
+}
+.nowrap1 {
+  white-space: nowrap;
+  
 }
 
 .icon-button {
@@ -108,10 +113,14 @@ a:focus-visible {
 }
 
 .public {
-  padding: 1em;
+  padding: 1rem;
   flex-grow: 1;
+ 
 }
 
+.public__header{
+  text-align:center;
+}
 .public__main,
 .login {
   flex-grow: 1;
@@ -119,9 +128,16 @@ a:focus-visible {
   border-bottom: 2px solid var(--BORDER-COLOR);
   padding: 1em 0;
 }
-
+.FindUs{
+  text-align: center;
+  color:red;
+}
+.addr{
+  text-align:center;
+}
 .public__addr {
-  margin-top: 1em;
+  align-content: center;
+  margin-top: 1rem;
 }
 
 .welcome a::before {
@@ -137,6 +153,11 @@ a:focus-visible {
   background-color: var(--BGCOLOR);
   padding: 0 0.5em;
   border-bottom: 1px solid var(--BORDER-COLOR);
+}
+
+.dash-header__title{
+  text-align:center;
+  display:column;
 }
 
 .dash-header__container {
